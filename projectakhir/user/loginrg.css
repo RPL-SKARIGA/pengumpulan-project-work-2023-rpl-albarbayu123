@@ -1,0 +1,94 @@
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.main-bg {
+    background-image: url(../img/jawad-jawahir-CRtOF-CojHI-unsplash.jpg); 
+    color: #c5c5c5; 
+    background-size:contain;
+}
+
+.login-container {
+    background-color: #88867c; 
+    border-radius: 10px; 
+    max-width: 400px; 
+    margin: 50px auto; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the logo */
+.logo-badge {
+    font-size: 50px;
+    color: #29281d; /* Dark purple color */
+}
+
+/* Style the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #2e2d24; /* Dark purple color */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2e2c18; /* Dark purple border */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #747067; 
+    color: #000000; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #292727; /* Darker purple on hover */
+}
+
+/* Style the link for registration */
+.text-darkyellow {
+    color: #2c2300; /* Dark yellow color */
+    text-decoration: none;
+}
+
+.text-darkyellow:hover {
+    text-decoration: underline;
+}
+
+/* Add space at the bottom */
+.margin-t {
+    margin-top: 20px;
+}
+
+/* Center align text */
+.text-center {
+    text-align: center;
+}
+
+/* Add some margin to the bottom of the form */
+.container-content {
+    margin-bottom: 20px;
+}
+
+/* Style the footer text */
+.margin-t small {
+    color: #000000; /* White text color */
+}
+
+/* Style the SVG icon */
+.bi-person-circle {
+    fill: #000000;
+     /* Dark purple color */
+}
+

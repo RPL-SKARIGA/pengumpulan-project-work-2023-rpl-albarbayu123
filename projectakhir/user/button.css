@@ -1,0 +1,39 @@
+.right-button {
+    position: fixed;
+    bottom: 10px; /* Jarak dari bawah */
+    right: 10px; /* Jarak dari kanan */
+    background-color: black;
+}
+
+.right-button span {
+    color: whitesmoke;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+.right-button span:hover {
+    color: aquamarine;
+}
+
+.left-button {
+    position: fixed;
+    bottom: 10px; /* Jarak dari bawah */
+    left: 10px; /* Jarak dari kiri */
+    background-color: black;
+}
+
+.left-button span {
+    color: whitesmoke;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+.left-button span:hover {
+    color: aquamarine;
+}
+
+.relative {
+    /* Sesuaikan padding untuk konten di tengah jika diperlukan */
+    padding-right: 100rem;
+    padding-left: 100rem;
+}
